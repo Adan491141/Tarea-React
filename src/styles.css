@@ -1,0 +1,94 @@
+/* styles.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .container:hover {
+    transform: scale(1.02);
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+  }
+  
+  .container_entradas {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 30px;
+  }
+  
+  input[type="text"] {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: border-color 0.3s ease-in-out;
+  }
+  
+  input[type="text"]:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  button {
+    padding: 8px 12px; /* Ajusta el padding para hacerlo menos ancho */
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease-in-out;
+    margin-top: 20px; /* Añadido para separar el botón */
+    width: auto; /* El botón se ajustará al contenido */
+    display: inline-block; /* Asegura que el botón se ajuste al contenido */
+  }
+  
+  
+  
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    padding: 12px;
+    border-bottom: 1px solid #ccc;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  li:hover {
+    background-color: #f0f0f0;
+  }
+  
+  li:last-child {
+    border-bottom: none;
+  }
+  
+  input[type="text"]::placeholder {
+    color: #aaa;
+  }
+  
